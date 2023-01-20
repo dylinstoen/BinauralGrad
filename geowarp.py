@@ -11,7 +11,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 import soundfile
 
-from binauralgrad.warping import GeometricTimeWarper, MonotoneTimeWarper
+from src.binauralgrad.warping import GeometricTimeWarper, MonotoneTimeWarper
 
 
 

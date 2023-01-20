@@ -8,9 +8,9 @@ import torchaudio
 import math
 from argparse import ArgumentParser
 
-from binauralgrad.params import AttrDict
-import binauralgrad.params as base_params
-from binauralgrad.model import BinauralGrad
+from params import AttrDict
+import params as base_params
+from model import BinauralGrad
 
 models = {}
 

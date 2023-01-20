@@ -5,8 +5,8 @@ from argparse import ArgumentParser
 from torch.cuda import device_count
 from torch.multiprocessing import spawn
 
-from binauralgrad.learner import train, train_distributed
-import binauralgrad.params as params_all
+from learner import train, train_distributed
+import params as params_all
 
 
 def _get_free_port():
